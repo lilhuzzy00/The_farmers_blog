@@ -1,8 +1,8 @@
-import { useEffect, useState, useContext } from "react";
-import axios from "axios";
-import { useRouter } from "next/router";
-import { SyncOutlined } from "@ant-design/icons";
-import { UserContext } from "../../context";
+import { useEffect, useState, useContext } from "react"
+import axios from "axios"
+import { useRouter } from "next/router"
+import { SyncOutlined } from "@ant-design/icons"
+import { UserContext } from "../../context"
 
 const UserRoute = ({ children }) => {
   const [ok, setOk] = useState(false);
