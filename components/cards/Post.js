@@ -7,7 +7,7 @@ import {
   HeartFilled,
   CommentOutlined,
   EditOutlined,
-  DeleteOutlined,
+  DeleteOutlined
 } from "@ant-design/icons";
 import { UserContext } from "../../context";
 import { useRouter } from "next/router";

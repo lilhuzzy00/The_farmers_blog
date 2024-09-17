@@ -9,7 +9,7 @@ const ForgotPasswordForm = ({
   secret,
   setSecret,
   loading,
-  page,
+  page
 }) => (
   <form onSubmit={handleSubmit}>
     <div className="form-group p-2">
